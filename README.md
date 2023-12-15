@@ -35,3 +35,10 @@ source myenv/bin/activate
 ```Http
  GET http://127.0.0.1:8040/ HTTP/1.1
 ```
+
+## References:
+[Project IDX Documentation](https://developers.google.com/idx/guides/customize-idx-env)
+
+[NixOS Package Listing](https://search.nixos.org/packages?channel=23.11&show=python38&from=0&size=50&sort=relevance&type=packages&query=Python3)
+
+[Open VSX Extensions Registry](https://open-vsx.org/extension/humao/rest-client)
