@@ -21,8 +21,8 @@
   # preview configuration, identical to monospace.json
   idx.previews = {
     enable = false;
-}
-
+};
+]
 
 
 
