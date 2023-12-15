@@ -20,9 +20,17 @@
   ];
   # preview configuration, identical to monospace.json
   idx.previews = {
-    enable = false;
+    enable = true;
+    previews = [
+      {
+        command = ["python3" "-m" "http.server" "$PORT" "--bind" "0.0.0.0"];
+        cwd = "/home/user/myapp";
+        manager = "web";
+        id = "web";
+        env = {
+          HELLO = "world";
+        };
+      }
+    ];
 };
-]
-
-
-
+}
