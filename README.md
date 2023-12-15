@@ -16,6 +16,10 @@ source myenv/bin/activate
 ```Bash
  uvicorn main:app --reload
 ```
+## Create `myrequests.http`
+```Bash
+touch myrequests.http
+```
 ## REST Client
 ```Http
  GET http://127.0.0.1:8000/ HTTP/1.1
