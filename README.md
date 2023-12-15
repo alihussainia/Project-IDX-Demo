@@ -1,5 +1,5 @@
 # Project-IDX-Demo
-This repository contains files for the first demo of Python and Docker in Project-IDX, Google's Cloud based IDE.
+This repository contains files for the first ever demo of Python and Docker in Project-IDX, Google's Cloud based IDE.
 ## Creating Virtual Env
 ```Bash
  python3 -m venv myenv
